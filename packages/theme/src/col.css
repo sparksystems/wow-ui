@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import "./common/var.css";
+
+.w-row {
+  display: -ms-flexbox;
+  display: flex;
+  /* -webkit-justify-content: flex-end; */
+  /* justify-content: flex-end; */
+  /* -webkit-align-items: center; */
+  /* align-items: center; */
+}
+
+.w-col, .w-col-0, .w-col-5, .w-col-10, .w-col-15, .w-col-20, .w-col-25, .w-col-30, .w-col-35, .w-col-40, .w-col-45, .w-col-50, .w-col-55, .w-col-60, .w-col-65, .w-col-70, .w-col-75, .w-col-80, .w-col-85, .w-col-90, .w-col-95, .w-col-100 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.w-col-0 {
+  -webkit-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+
+@for $i from 5 to 100 step 5 {
+  .w-col-$i {
+    -webkit-flex: 0 0 $i%;
+    -moz-flex: 0 0 $i%;
+    -o-flex: 0 0 $i%;
+    flex: 0 0 $i%;
+  }
+  .w-col-offset-$i {
+    margin-left: $i%;
+  }
+}
