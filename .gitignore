@@ -56,4 +56,6 @@ typings/
 
 # dotenv environment variables file
 .env
-.idea/workspace.xml
+
+# webstorm project runtime data
+.idea/
