@@ -29,8 +29,8 @@
 ## 浏览器支持
 
 - 现代浏览器和 IE9 及以上
+- node-webkit [NW.js](http://nwjs.io)
 - [Electron](http://electron.atom.io/)
-- [NW.js](http://nwjs.io)
 
 ## 安装
 
@@ -50,11 +50,11 @@ npm install wowui -save
 
 ```js
 import WowUI from 'wowui' // 引入组件库
-import '../node_modules/wowui/packages/theme-default/lib/index.css' // 引入样式库
+import '../node_modules/wowui/packages/theme/lib/index.css' // 引入样式库
 
 Vue.use(WowUI)
 ```
 
 ## 贡献
 
-如果你在使用 `WOW-UI` 时遇到问题，或者有好的建议，欢迎给我们提 [Issue](https://github.com/sparksystems/wow-ui/issues) 或 [Pull Request](https://github.com/sparksystems/wow-ui/pulls)
+如果你在使用 `WOW-UI` 时遇到问题，或有好的建议的话，请向我们提出 [问题（Issue）](https://github.com/sparksystems/wow-ui/issues) 或 [请求（Pull Request）](https://github.com/sparksystems/wow-ui/pulls)
