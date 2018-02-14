@@ -4,8 +4,8 @@
   }
 </style>
 
-# Tag 标签
-----
+# 标签 Tag
+---
 ### 基础用法
 由`type`属性来选择tag的类型，也可以通过`color`属性来自定义背景色。
 
@@ -108,18 +108,18 @@ export default {
 </script>
 
 ```
-:::
+::: message
 
 ## API
 
-| 参数      | 说明          | 类型      | 可选值                           | 默认值  |
-|---------- |-------------- |---------- |--------------------------------  |-------- |
-| name | 用于触发关闭事件时的回调 | Boolean | — | false |
-| color | 类型 | String |  `primary`, `success`, `error`, `warning`, `info` | primary |
-| closable | 是否可关闭 | Boolean | — | false |
+|参数|说明|类型|可选值|默认值|
+|---|---|---|---|---|
+|name|用于触发关闭事件时的回调|Boolean|无|false|
+|color|类型|String|`primary`, `success`, `error`, `warning`, `info`|primary|
+|closable|是否可关闭|Boolean|无|false|
 
 ## Tag 事件
 
-| 事件名称      | 说明          | 返回值  |
-|---------- |-------------- |---------- |
-| close | 点击关闭按钮时触发 | event |
+|事件名称|说明|返回值|
+|---|---|---|
+|close|点击关闭按钮时触发|event|

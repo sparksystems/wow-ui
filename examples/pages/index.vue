@@ -2,7 +2,7 @@
   <div class="pg-index">
     <div class="index-container">
       <img src="../assets/img/logo.png">
-      <p>一款轻量级、模块化的移动端组件库</p>
+      <p>轻量级、模块化的移动端组件库</p>
     </div>
     <div class="panel">
       <div class="about">

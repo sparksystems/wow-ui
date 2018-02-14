@@ -1,24 +1,18 @@
 /**
  * @author tonylinx
- * Date: 18/01/23
+ * Date: 18/02/13
  */
-import MetaInfo from './meta-info/index'
-import WAlert from './alert/index'
-import WButton from './button/index.js';
-import WCol from './col/index'
-import WLimitTextArea from './limit-textarea/index'
-import WLoadingBar from './loading-bar/index'
-import WRow from './row/index'
-import WShowMore from './show-more/index'
-import WTag from './tag/index'
+import WAlert from './alert'
+import WButton from './button';
+import WCol from './col'
+import WRow from './row'
+import WTag from './tag'
 
 const components = [
   WButton,
   WRow,
   WCol,
   WTag,
-  WShowMore,
-  WLimitTextArea,
   WAlert
 ]
 

@@ -38,7 +38,6 @@
     color: #666;
     font-size: 13px;
     transition: color .15s linear;
-
     border-right: 1px solid #eee;
     border-bottom: 1px solid #eee;
     margin-right: -1px;
@@ -65,7 +64,9 @@
 # Icon 图标
 
 ----
-语义化的矢量图形，```VV-UI``` 使用开源的 Iconfont (阿里妈妈MUX倾力打造的矢量图标管理、交流平台) 作为图标库，并制作成了 ```icon font```。
+
+语义化的矢量图形，```WOW-UI``` 使用开源的 [Iconfont](http://mux.alimama.com/posts/892) 作为图标库，并制作成了 ```icon font```。
+
 ### 如何使用
 
 使用 ```class="icon"``` 来声明图标，具体图标的名称请 ```copy``` 相应的标签
@@ -86,7 +87,7 @@
 <i class="w-icon-smile fs-24"></i>
 
 ```
-:::
+::: message
 
 ### 图标示例
 

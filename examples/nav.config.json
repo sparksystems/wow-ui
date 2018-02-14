@@ -52,29 +52,9 @@
           "path": "/tag"
         },
         {
-          "desc": "alert",
+          "desc": "通告 Alert",
           "name": "alert",
           "path": "/alert"
-        },
-        {
-          "desc":  "limit-textarea",
-          "name":  "limit-textarea",
-          "path": "/limit-textarea"
-        },
-        {
-          "desc":  "loading-bar",
-          "name":  "loading-bar",
-          "path": "/loading-bar"
-        },
-        {
-          "desc":  "meta-info",
-          "name":  "meta-info",
-          "path": "/meta-info"
-        },
-        {
-          "desc":  "show-more",
-          "name":  "show-more",
-          "path": "/show-more"
         }
       ]
     }

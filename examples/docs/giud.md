@@ -13,7 +13,7 @@
 ## 浏览器支持
 
 - 现代浏览器和 IE9 及以上
-- node-webkit [NW.js](http://nwjs.io) （推荐）
+- node-webkit - [NW.js](http://nwjs.io) 
 - [Electron](http://electron.atom.io/)
 
 

@@ -6,9 +6,9 @@ export default {
   name: 'WCol',
 
   props: {
-    span: {
+    width: {
       type: Number,
-      default: 100
+      default: 0
     },
     offset: Number,
     tag: {
@@ -35,16 +35,16 @@ export default {
       style.paddingRight = style.paddingLeft
     }
 
-    ['span', 'offset'].forEach(prop => {
+    ['width', 'offset'].forEach(prop => {
       if (this[prop]) {
-        if (prop === 'span' && this[prop] > 0) {
+        if (prop === 'width' && this[prop] > 0) {
           classList.push(`w-col-${this[prop]}`)
         }
         if (prop === 'offset') {
           classList.push(`w-col-offset-${this[prop]}`)
         }
         // classList.push(
-        //   prop !== 'span'
+        //   prop !== 'width'
         //     ? `w-col-${prop}-${this[prop]}`
         //     : `w-col-${this[prop]}`
         // )

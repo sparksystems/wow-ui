@@ -1,4 +1,4 @@
-# Button 按钮
+# 按钮 Button
 ----
 ### 基础用法
 使用```type```、```plain```和```round```属性来定义 Button 的样式。
@@ -13,7 +13,7 @@
     <w-button type="danger">危险按钮</w-button>
   </div>
   <div class="m-10">
-    <w-button plain>朴素按钮</w-button>
+    <w-button plain>普通按钮</w-button>
     <w-button type="primary" plain>主要按钮</w-button>
     <w-button type="success" plain>成功按钮</w-button>
     <w-button type="info" plain>信息按钮</w-button>
@@ -42,7 +42,7 @@
   <w-button type="danger">危险按钮</w-button>
 </div>
 <div>
-  <w-button plain>朴素按钮</w-button>
+  <w-button plain>普通按钮</w-button>
   <w-button type="primary" plain>主要按钮</w-button>
   <w-button type="success" plain>成功按钮</w-button>
   <w-button type="info" plain>信息按钮</w-button>
@@ -59,7 +59,7 @@
 </div>
 
 ```
-:::
+::: message
 
 ### 禁用状态
 
@@ -75,7 +75,7 @@
     <w-button type="danger" disabled>危险按钮</w-button>
   </div>
   <div class="m-10">
-    <w-button plain disabled>朴素按钮</w-button>
+    <w-button plain disabled>普通按钮</w-button>
     <w-button type="primary" plain disabled>主要按钮</w-button>
     <w-button type="success" plain disabled>成功按钮</w-button>
     <w-button type="info" plain disabled>信息按钮</w-button>
@@ -96,7 +96,7 @@
   <w-button type="danger" disabled>危险按钮</w-button>
 </div>
 <div class="m-10">
-  <w-button plain disabled>朴素按钮</w-button>
+  <w-button plain disabled>普通按钮</w-button>
   <w-button type="primary" plain disabled>主要按钮</w-button>
   <w-button type="success" plain disabled>成功按钮</w-button>
   <w-button type="info" plain disabled>信息按钮</w-button>
@@ -105,11 +105,11 @@
 </div>
 
 ```
-:::
+::: message
 
 ### 图标按钮
-带图标的按钮可增强辨识度（有文字）或节省空间（无文字）。
-设置```icon```属性即可，icon 的列表可以参考 VV-UI 的 icon 组件，也可以设置在文字右边的 icon ，只要使用```i```标签即可，可以使用自定义图标。
+一图胜千文，带图标的按钮可简洁、有效的提升用户的体验度。
+设置```icon```属性，icon 的列表可以参考 WOW-UI 的 icon 组件，也可以设置在文字右边的 icon ，只要使用```i```标签即可，可以使用自定义图标。
 <div class="message">
   <w-button icon="w-icon-tag" type="primary"></w-button>
   <w-button icon="w-icon-close" type="primary"></w-button>
@@ -128,8 +128,7 @@
 <w-button icon="w-icon-cloudfill" type="primary">下载</w-button>
 
 ```
-:::
-
+::: message
 
 ### 不同尺寸
 
@@ -149,13 +148,13 @@ Button 组件提供除了默认值以外的三种尺寸，可以在不同场景�
 <w-button size="small">小型按钮</w-button>
 
 ```
-:::
+::: message
 
 ### Attributes
-| 参数      | 说明    | 类型      | 可选值       | 默认值   |
-|---------- |-------- |---------- |-------------  |-------- |
-| size     | 尺寸   | string  |   default,medium,small            |    —     |
-| type     | 类型   | string    |   primary,success,warning,danger,info |     —    |
-| plain     | 是否朴素按钮   | Boolean    | — | false   |
-| disabled  | 是否禁用状态    | boolean   | —   | false   |
-| icon  | 图标，已有的图标库中的图标名 | string   |  —  |  —  |
+|参数|说明|类型|可选值|默认值|
+|---|---|---|---|---|
+|size|尺寸|string|default,medium,small|无|
+|type|类型|string|primary,success,warning,danger,info|无|
+|plain|是否普通按钮|Boolean|无|false|
+|disabled|是否禁用状态|boolean|无|false|
+|icon|图标，已有的图标库中的图标名|string|无|无|
