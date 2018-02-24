@@ -1,6 +1,6 @@
 {
   "name": "wowui",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "A UI components for Vue 2.x",
   "author": "Tony Lin <tonylinx@qq.com>",
   "main": "packages/index.js",

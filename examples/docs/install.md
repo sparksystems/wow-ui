@@ -9,13 +9,19 @@
 npm install --save wowui
 ```
 
-或使用 smart-npm 加快下载速度，当然先要安装：
+或简写为：
+
+```bash
+npm i -S wowui
+```
+
+可使用 smart-npm 加快下载速度，当然先要安装：
 
 ```bash
 npm i -g smart-npm
 ```
 
-再
+然后，再：
 
 ```bash
 snpm i -S wowui

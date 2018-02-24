@@ -87,7 +87,7 @@
 <i class="w-icon-smile fs-24"></i>
 
 ```
-::: message
+:::
 
 ### 图标示例
 

@@ -59,7 +59,7 @@
 </div>
 
 ```
-::: message
+:::
 
 ### 禁用状态
 
@@ -105,7 +105,7 @@
 </div>
 
 ```
-::: message
+:::
 
 ### 图标按钮
 一图胜千文，带图标的按钮可简洁、有效的提升用户的体验度。
@@ -128,7 +128,7 @@
 <w-button icon="w-icon-cloudfill" type="primary">下载</w-button>
 
 ```
-::: message
+:::
 
 ### 不同尺寸
 
@@ -148,7 +148,7 @@ Button 组件提供除了默认值以外的三种尺寸，可以在不同场景�
 <w-button size="small">小型按钮</w-button>
 
 ```
-::: message
+:::
 
 ### Attributes
 |参数|说明|类型|可选值|默认值|

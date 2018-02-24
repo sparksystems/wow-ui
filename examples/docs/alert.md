@@ -35,7 +35,7 @@
 </div>
 
 ```
-::: message
+:::
 
 ### 带有图标 icon
 表示某种状态时提升可读性。
@@ -79,7 +79,7 @@
 </div>
 
 ```
-::: message
+:::
 
 ### 自定义关闭按钮
 自定义关闭按钮为文字或其他符号。
@@ -99,7 +99,7 @@
 </div>
 
 ```
-::: message
+:::
 
 <div class="dome-alert message">
   <w-alert type="success"
@@ -119,7 +119,7 @@
 </div>
 
 ```
-::: message
+:::
 
 ### 属性 Attributes
 |参数|说明|类型|可选值|默认值|

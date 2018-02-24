@@ -28,7 +28,7 @@
 
 ```
 
-::: message
+:::
 
 ### 可移除标签
 设置```closable```属性可以定义一个标签是否可移除。默认的标签移除时会附带渐变动画，它接受一个Boolean，true 为关闭。
@@ -70,14 +70,11 @@ export default {
 </div>
 
 ::: message
+
 ```html
 
-<w-tag
-  :key="tag"
-  v-for="tag in dynamicTags"
-  closable
-  :disable-transitions="false"
-  @close="handleClose(tag)" :color="tag.color">
+<w-tag :key="tag" v-for="tag in dynamicTags" closable
+  :disable-transitions="false" @close="handleClose(tag)" :color="tag.color">
   {{tag.name}}
 </w-tag>
 <script>
@@ -108,7 +105,7 @@ export default {
 </script>
 
 ```
-::: message
+:::
 
 ## API
 
