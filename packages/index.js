@@ -1,20 +1,14 @@
-/**
- * @author tonylinx
- * Date: 18/02/14
- */
-import WAlert from './alert'
 import WButton from './button'
-import WCol from './col'
-import WRow from './row'
 import WTag from './tag'
+import WRow from './row'
+import WCol from './col'
+import WAlert from './alert'
 
-const components = [WButton, WRow, WCol, WTag, WAlert]
+const components = [WButton, WTag, WRow, WCol, WAlert]
 
 const install = function(Vue) {
   if (install.installed) return
   components.map(component => Vue.component(component.name, component))
-  // MetaInfo.install(Vue)
-  // Vue.prototype.$loading = WLoadingBar
 }
 
 if (typeof window !== 'undefined' && window.Vue) {

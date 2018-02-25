@@ -1,10 +1,9 @@
-import '../packages/theme/lib/index.css'
-
-import App from './App'
 import Vue from 'vue'
-import WowUI from '../packages/index'
-import message from './components/message.vue'
+import App from './App'
 import router from './router'
+import message from './components/message.vue'
+import WowUI from '../packages/index'
+import '../packages/theme/lib/index.css'
 
 Vue.component('message', message)
 Vue.use(WowUI)

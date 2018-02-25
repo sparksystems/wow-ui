@@ -12,8 +12,8 @@
 
 <script>
 import mainHeader from './components/header.vue'
-import sideNav from './components/side-nav.vue'
 import mainFooter from './components/footer.vue'
+import sideNav from './components/side-nav.vue'
 
 export default {
   name: 'app',
@@ -25,6 +25,7 @@ export default {
   watch: {
     $route () {
       this.isIndex = this.$route.name === 'index'
+      console.log('isIndex?', this.isIndex, Date.now())
     }
   },
   components: {

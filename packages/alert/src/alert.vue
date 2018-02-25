@@ -78,7 +78,7 @@ export default {
       return `w-alert--${this.type}`
     },
     iconClass() {
-      //暂无对应图标
+      // 暂无对应图标
       // return `w-icon--${this.type}`
       return "w-icon-fav"
     },
@@ -90,7 +90,7 @@ export default {
     }
   },
   methods: {
-    close (e) {
+    close(e) {
       this.visible = false
       this.$emit("close")
     }

@@ -31,9 +31,8 @@
     <div class="footer-container">
       <w-row type="flex" justify="space-between">
         <w-col :width="12" class="text-left">
-          <a href="javascript:;">
-            <img src="../assets/img/avater.png" width="80">
-          </a>
+          <a href="javascript:;"></a>
+          <img src="../assets/img/avater.png" width="80">
           <div>
             <p>作者：Tony lin</p>
             <p>邮箱：tonylinx@qq.com </p>

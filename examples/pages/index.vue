@@ -6,7 +6,7 @@
     </div>
     <div class="panel">
       <div class="about">
-        <router-link :to="{name: 'giud'}">开始 GetStart</router-link>
+        <router-link :to="{name: 'guide'}">开始 GetStart</router-link>
         <a target="_blank" class="btn-github" href="https://github.com/sparksystems/wow-ui">GitHub</a>
       </div>
     </div>
@@ -14,13 +14,13 @@
 </template>
 
 <script>
-export default{
-  data () {
-    return {
-      height: document.documentElement.clientHeight
+  export default{
+    data () {
+      return {
+        height: document.documentElement.clientHeight
+      }
     }
   }
-}
 </script>
 <style type="text/less" lang="less">
   .pg-index {

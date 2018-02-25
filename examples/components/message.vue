@@ -1,7 +1,7 @@
 <template>
   <div class="docs-demo-wrapper">
       <div :style="{height: isExpand ? 'auto' : '0'}" class="demo-container">
-        <div span="14">
+        <div width="14">
           <div class="docs-demo docs-demo--expand">
             <div class="highlight-wrapper">
               <slot name="highlight"></slot>
@@ -31,7 +31,6 @@
 </script>
 
 <style lang="less" type="text/less">
-
   .demo-container {
     transition: max-height .3s ease;
     overflow: hidden;
@@ -59,30 +58,24 @@
     padding: 10px 0;
     background-color: #FAFBFC;
   }
-
   .docs-demo__code,
   .highlight-wrapper,
   .docs-demo__meta {
     padding: 0 20px;
     overflow-y: auto;
   }
-
   .docs-demo__code {
     border-bottom: 1px solid #eee;
   }
   .docs-demo.docs-demo--expand .docs-demo__meta {
     border-bottom: 1px dashed #e9e9e9;
   }
-
   .docs-demo.docs-demo--expand .docs-demo__triangle {
     transform: rotate(180deg);
   }
-
   .highlight-wrapper {
     display: none;
-
-    p,
-    pre {
+    p, pre {
       margin: 0;
     }
 
@@ -90,27 +83,22 @@
       padding: 0;
     }
   }
-
   .docs-demo.docs-demo--expand .highlight-wrapper {
     display: block;
   }
-
   .docs-demo__code__mobi {
     height: 620px;
     margin: 20px 0;
   }
-
   .docs-demo__code__mobi__header {
     border-radius: 4px 4px 0 0;
     background: -webkit-linear-gradient(rgba(55,55,55,.98),#545456);
     background: linear-gradient(rgba(55,55,55,.98),#545456);
     text-align: center;
     padding: 8px;
-
     img {
       width: 100%;
     }
-
     .url-box {
       height: 28px;
       line-height: 28px;
@@ -123,7 +111,6 @@
       overflow-x: auto;
     }
   }
-
   .docs-demo__code__mobi__content {
     iframe {
       width: 100%;

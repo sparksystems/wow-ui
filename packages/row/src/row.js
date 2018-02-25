@@ -1,6 +1,8 @@
 export default {
   name: 'WRow',
+
   componentName: 'WRow',
+
   props: {
     tag: {
       type: String,
@@ -17,8 +19,9 @@ export default {
       default: 'top'
     }
   },
+
   computed: {
-    style () {
+    style() {
       var ret = {}
       if (this.gutter) {
         ret.marginLeft = `-${this.gutter / 2}px`
@@ -27,6 +30,7 @@ export default {
       return ret
     }
   },
+
   render (h) {
     return h(this.tag, {
       class: [
