@@ -19,12 +19,12 @@ export default {
   },
   computed: {
     style () {
-      var ret = {};
+      var ret = {}
       if (this.gutter) {
-        ret.marginLeft = `-${this.gutter / 2}px`;
-        ret.marginRight = ret.marginLeft;
+        ret.marginLeft = `-${this.gutter / 2}px`
+        ret.marginRight = ret.marginLeft
       }
-      return ret;
+      return ret
     }
   },
   render (h) {
@@ -36,6 +36,6 @@ export default {
         { 'w-row--flex': true }
       ],
       style: this.style
-    }, this.$slots.default);
+    }, this.$slots.default)
   }
-};
+}

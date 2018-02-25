@@ -1,7 +1,3 @@
-/**
- * @author tonylinx
- * Date: 18/1/23
- */
 export default {
   name: 'WCol',
 
@@ -31,7 +27,7 @@ export default {
     let style = {}
 
     if (this.gutter) {
-      style.paddingLeft = this.gutter / 2 + 'px';
+      style.paddingLeft = this.gutter / 2 + 'px'
       style.paddingRight = style.paddingLeft
     }
 
@@ -43,15 +39,10 @@ export default {
         if (prop === 'offset') {
           classList.push(`w-col-offset-${this[prop]}`)
         }
-        // classList.push(
-        //   prop !== 'width'
-        //     ? `w-col-${prop}-${this[prop]}`
-        //     : `w-col-${this[prop]}`
-        // )
       }
     })
 
-    return h (this.tag, {
+    return h(this.tag, {
       class: ['w-col', classList],
       style
     }, this.$slots.default)

@@ -1,10 +1,6 @@
-/**
- * @author tonylinx
- * Date: 18/01/23
- */
-import Tag from './src/tag.vue'
+import Tag from './src/tag'
 
-Tag.install = function(Vue) {
+Tag.install = function (Vue) {
   Vue.component(Tag.name, Tag)
 }
 

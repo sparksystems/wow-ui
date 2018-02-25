@@ -28,9 +28,9 @@ function isTextNode(vnode) {
     vnode[0].tag === undefined &&
     vnode[0].text
   ) {
-    return true;
+    return true
   } else {
-    return false;
+    return false
   }
 }
 
@@ -41,8 +41,8 @@ export default {
       type: String,
       requre: true,
       default() {
-        const defaultNode = this.$slots.default;
-        return isTextNode(defaultNode) ? defaultNode[0].text : undefined;
+        const defaultNode = this.$slots.default
+        return isTextNode(defaultNode) ? defaultNode[0].text : undefined
       }
     },
     type: {
@@ -68,32 +68,32 @@ export default {
       type: String
     }
   },
-  data() {
+  data () {
     return {
       visible: true
-    };
+    }
   },
   computed: {
     typeClass() {
-      return `w-alert--${this.type}`;
+      return `w-alert--${this.type}`
     },
     iconClass() {
       //暂无对应图标
       // return `w-icon--${this.type}`
-      return "w-icon-fav";
+      return "w-icon-fav"
     },
     isBoldTitle() {
-      return this.description ? "is-bold" : "";
+      return this.description ? "is-bold" : ""
     },
     isBigIcon() {
-      return this.description ? "is-big" : "";
+      return this.description ? "is-big" : ""
     }
   },
   methods: {
-    close(e) {
-      this.visible = false;
-      this.$emit("close");
+    close (e) {
+      this.visible = false
+      this.$emit("close")
     }
   }
-};
+}
 </script>

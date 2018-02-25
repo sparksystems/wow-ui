@@ -1,13 +1,8 @@
-/**
- * @author tonylinx
- * Date: 18/01/23
- */
-import Col from './src/col';
+import Col from './src/col'
 
 /* istanbul ignore next */
-Col.install = function(Vue) {
-  Vue.component(Col.name, Col);
-};
+Col.install = function (Vue) {
+  Vue.component(Col.name, Col)
+}
 
-export default Col;
-
+export default Col

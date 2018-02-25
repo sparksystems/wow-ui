@@ -4,9 +4,9 @@
     class="w__button"
     :disabled="disabled"
     :class="[
-    'w__button--'+type,
+    'w__button--' + type,
     {'is-plain': plain, 'is-disabled': disabled, 'is-round': round},
-    'w__button--size-'+size
+    'w__button--size-' + size
     ]"
   >
     <i v-if="icon !== ''" :class="icon"></i>
@@ -14,7 +14,7 @@
   </button>
 </template>
 <script>
-  export default{
+  export default {
     name: 'WButton',
     props: {
       type: {

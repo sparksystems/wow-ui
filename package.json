@@ -1,16 +1,18 @@
 {
   "name": "wowui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A UI components for Vue 2.x",
   "author": "Tony Lin <tonylinx@qq.com>",
   "main": "packages/index.js",
   "private": false,
   "scripts": {
-    "start": "npm run dev",
-    "dev": "node build/dev-server.js",
     "tag": "node build/tag.js",
     "publish": "node build/publish.js",
+    "dev": "node build/dev-server.js",
+    "start": "npm run dev",
     "build": "node build/build.js",
+    "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
+    "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit/specs"
   },
   "dependencies": {

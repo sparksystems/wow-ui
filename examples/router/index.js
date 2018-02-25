@@ -1,5 +1,5 @@
-import Vue from 'vue'
 import Router from 'vue-router'
+import Vue from 'vue'
 import navConf from '../nav.config.json'
 
 Vue.use(Router)
@@ -26,6 +26,7 @@ let addComponent = (router) => {
     }
   })
 }
+
 addComponent(routes)
 
 export default new Router({

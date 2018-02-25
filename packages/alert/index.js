@@ -1,11 +1,8 @@
-/**
- * @author tonylinx
- * Date: 18/01/23
- */
-import Alert from './src/alert.vue';
+import Alert from './src/alert'
 
+/* ... */
 Alert.install = function (Vue) {
-  Vue.component(Alert.name, Alert);
-};
+  Vue.component(Alert.name, Alert)
+}
 
-export default Alert;
+export default Alert
