@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App'
-import router from './router'
-import message from './components/message.vue'
 import WowUI from '../packages/index'
+import message from './components/message.vue'
+import router from './router'
 import '../packages/theme/lib/index.css'
 
 Vue.component('message', message)

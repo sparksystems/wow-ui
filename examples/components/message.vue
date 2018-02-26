@@ -78,7 +78,6 @@
     p, pre {
       margin: 0;
     }
-
     .hljs {
       padding: 0;
     }
