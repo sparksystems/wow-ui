@@ -47,11 +47,6 @@
           "path": "/button"
         },
         {
-          "desc": "标签 Tags",
-          "name": "tag",
-          "path": "/tag"
-        },
-        {
           "desc": "通告 Alert",
           "name": "alert",
           "path": "/alert"

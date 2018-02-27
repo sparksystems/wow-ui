@@ -1,10 +1,15 @@
+/* index.js */
 import WButton from './button'
-import WTag from './tag'
 import WRow from './row'
 import WCol from './col'
 import WAlert from './alert'
 
-const components = [WButton, WTag, WRow, WCol, WAlert]
+const components = [
+  WButton,
+  WRow,
+  WCol,
+  WAlert
+]
 
 const install = function(Vue) {
   if (install.installed) return
@@ -16,9 +21,9 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export default {
+  install,
   WButton,
   WRow,
   WCol,
-  WTag,
   WAlert
 }
