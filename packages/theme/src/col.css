@@ -16,6 +16,9 @@
 }
 .w-col-0 {
   -webkit-flex: 0 1 auto;
+  -moz-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  -o-flex: 0 1 auto;
   flex: 0 1 auto;
 }
 
@@ -23,6 +26,7 @@
   .w-col-$i {
     -webkit-flex: 0 0 $i%;
     -moz-flex: 0 0 $i%;
+    -ms-flex: 0 0 $i%;
     -o-flex: 0 0 $i%;
     flex: 0 0 $i%;
   }

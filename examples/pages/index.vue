@@ -6,7 +6,7 @@
     </div>
     <div class="panel">
       <div class="about">
-        <router-link :to="{name: 'guide'}">开始 GetStart</router-link>
+        <router-link :to="{name: 'guide'}">开始 Start</router-link>
         <a target="_blank" class="btn-github" href="https://github.com/sparksystems/wow-ui">GitHub</a>
       </div>
     </div>
@@ -72,7 +72,7 @@
         }
       }
     }
-    .panel:after {
+    .panel::after {
       content: '';
       display: block;
       position: absolute;
